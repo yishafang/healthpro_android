@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HealthPro</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Sign In Screen-->
+    <string name="health_pro">HealthPro</string>
+    <string name="sign_in">Sign In</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="to_sign_up">Not a user? Register now</string>
+
+    <!-- Homepage Screen-->
+    <string name="appt_btn">appointment_button</string>
+    <string name="record_btn">record_button</string>
+    <string name="search_btn">search_button</string>
+    <string name="setting_btn">setting_button</string>
+</resources>

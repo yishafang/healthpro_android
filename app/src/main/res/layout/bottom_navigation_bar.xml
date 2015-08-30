@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/background_blue">
+
+    <ImageButton
+        android:id="@+id/appointment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/appointment_reminders_50"
+        android:contentDescription="@string/appt_btn"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/record_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/folder_50"
+        android:contentDescription="@string/record_btn"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search_50"
+        android:contentDescription="@string/search_btn"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/setting_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/setting_50"
+        android:contentDescription="@string/setting_btn"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>
